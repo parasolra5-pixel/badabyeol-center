@@ -62,12 +62,12 @@ ul { margin: 0; padding: 0; list-style: none; }
 
 .bd-brand-logo {
   display: block;
-  height: 64px;
+  height: 88px;
   width: auto;
 }
 
 @media (max-width: 640px) {
-  .bd-brand-logo { height: 46px; }
+  .bd-brand-logo { height: 58px; }
 }
 
 .bd-nav {
