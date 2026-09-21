@@ -145,11 +145,14 @@ ul { margin: 0; padding: 0; list-style: none; }
 /* Hero */
 .bd-hero {
   background-color: #bfe0f2;
+  display: flex;
+  justify-content: center;
 }
 
 .bd-hero-img {
   display: block;
   width: 100%;
+  max-width: 1400px;
   height: auto;
 }
 
