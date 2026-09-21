@@ -60,18 +60,14 @@ ul { margin: 0; padding: 0; list-style: none; }
   color: var(--bd-blue-deep);
 }
 
-.bd-brand-mark { color: var(--bd-gold); display: flex; }
-
-.bd-brand-text {
-  font-size: 1.2rem;
-  font-weight: 800;
-  letter-spacing: -0.02em;
+.bd-brand-logo {
+  display: block;
+  height: 42px;
+  width: auto;
 }
 
-.bd-brand-text em {
-  font-style: normal;
-  font-weight: 700;
-  margin-left: 2px;
+@media (max-width: 640px) {
+  .bd-brand-logo { height: 34px; }
 }
 
 .bd-nav {
