@@ -202,7 +202,7 @@ ul { margin: 0; padding: 0; list-style: none; }
   z-index: 2;
   display: block;
   width: 100%;
-  height: clamp(60px, 9vw, 150px);
+  height: clamp(40px, 6vw, 100px);
 }
 
 @media (max-width: 640px) {
