@@ -157,7 +157,7 @@ ul { margin: 0; padding: 0; list-style: none; }
 }
 
 /* Info panels */
-.bd-panels { padding: 48px 24px 8px; position: relative; z-index: 5; }
+.bd-panels { padding: 24px 24px 8px; }
 
 .bd-panels-inner {
   max-width: 1180px;
