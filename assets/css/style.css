@@ -144,7 +144,7 @@ ul { margin: 0; padding: 0; list-style: none; }
 
 /* Hero */
 .bd-hero {
-  background-color: #bfe0f2;
+  background-color: var(--bd-bg);
   display: flex;
   justify-content: center;
 }
