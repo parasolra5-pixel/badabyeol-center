@@ -188,7 +188,7 @@ ul { margin: 0; padding: 0; list-style: none; }
   flex: 1 1 auto;
 }
 
-.bd-panel-icon { font-size: 1.1rem; }
+.bd-panel-icon { display: block; width: 30px; height: 30px; }
 
 .bd-more {
   font-size: var(--bd-fs-xs);
