@@ -150,24 +150,25 @@ ul { margin: 0; padding: 0; list-style: none; }
 .bd-hero {
   position: relative;
   overflow: hidden;
-  aspect-ratio: 1920 / 820;
-  max-height: 78vh;
   background-color: #bfe0f2;
-  background-size: cover;
-  background-position: center 65%;
-  background-repeat: no-repeat;
   color: var(--bd-blue-deep);
   text-align: left;
-  display: flex;
-  align-items: flex-start;
+}
+
+.bd-hero-img {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 .bd-hero-inner {
-  position: relative;
+  position: absolute;
+  top: 0;
+  left: 0;
   z-index: 2;
-  max-width: 480px;
+  max-width: 46%;
   margin: 0;
-  padding: 7% 5% 0;
+  padding: 6% 5% 0;
 }
 
 .bd-hero-kicker {
@@ -205,8 +206,9 @@ ul { margin: 0; padding: 0; list-style: none; }
 }
 
 @media (max-width: 640px) {
-  .bd-hero { aspect-ratio: 1920 / 1180; background-position: 62% center; }
-  .bd-hero-inner { max-width: 82%; padding-top: 9%; }
+  .bd-hero-inner { max-width: 80%; padding-top: 8%; }
+  .bd-hero-kicker, .bd-hero-lead { font-size: 0.78rem; }
+  .bd-hero-title { font-size: 1.25rem; }
 }
 
 /* Info panels */
