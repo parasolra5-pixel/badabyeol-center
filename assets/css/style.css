@@ -57,6 +57,7 @@ ul { margin: 0; padding: 0; list-style: none; }
   gap: 8px;
   flex: 0 0 auto;
   color: var(--bd-blue-deep);
+  margin-left: -10px;
 }
 
 .bd-brand-logo {
