@@ -36,7 +36,7 @@ ul { margin: 0; padding: 0; list-style: none; }
 
 /* Top utility bar */
 .bd-topbar {
-  background: var(--bd-blue-soft);
+  background: #e2f1fa;
   border-bottom: 1px solid var(--bd-border);
 }
 
