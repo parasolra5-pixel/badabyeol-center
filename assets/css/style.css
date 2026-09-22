@@ -293,13 +293,21 @@ ul { margin: 0; padding: 0; list-style: none; }
   color: var(--bd-blue-deep);
 }
 
-.bd-panel-icon {
-  display: block;
+.bd-panel-icon-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 auto;
   width: 48px;
   height: 48px;
-  padding: 9px;
   border-radius: 50%;
   background: #e4f2fa;
+}
+
+.bd-panel-icon {
+  display: block;
+  width: 30px;
+  height: 30px;
   object-fit: contain;
 }
 
