@@ -250,15 +250,11 @@ ul { margin: 0; padding: 0; list-style: none; }
 /* Hero */
 .bd-hero {
   background-color: var(--bd-bg);
-  display: flex;
-  justify-content: center;
-  padding: 0 24px;
 }
 
 .bd-hero-img {
   display: block;
   width: 100%;
-  max-width: 1180px;
   height: auto;
 }
 
