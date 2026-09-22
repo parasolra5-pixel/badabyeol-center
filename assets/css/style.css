@@ -297,8 +297,6 @@ ul { margin: 0; padding: 0; list-style: none; }
   flex: 0 0 auto;
   width: 48px;
   height: 48px;
-  border-radius: 50%;
-  background: #e4f2fa;
 }
 
 .bd-panel-icon {
